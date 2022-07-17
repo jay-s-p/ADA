@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <conio.h>
 #include <stdlib.h>
+
 void sort(int a[], int n)
 {
 	// declare count(c) new output array(x)
@@ -28,7 +30,7 @@ void sort(int a[], int n)
 	}
 
 	// addition in count array
-	for (i = 0; i < max-1; i++)
+	for (i = 0; i < max - 1; i++)
 	{
 		c[i + 1] += c[i];
 	}

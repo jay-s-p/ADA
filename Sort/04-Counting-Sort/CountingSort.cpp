@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 void sort(int a[], int n)
 {
     // declare new output array(x) and max variable
@@ -42,6 +43,7 @@ void sort(int a[], int n)
     for (int i = 0; i < n; i++)
         a[i] = x[i];
 }
+
 void printArray(int a[], int n)
 {
     for (int i = 0; i < n; i++)

@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <conio.h>
-void sort(int a[],int n)
+
+void sort(int a[], int n)
 {
-	int i,j,key;
+	int i, j, key;
 	for (i = 1; i < n; i++)
 	{
 		key = a[i];

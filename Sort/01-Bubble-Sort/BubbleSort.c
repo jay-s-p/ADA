@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
+
 void sort(int a[], int n)
 {
 	int i, j, temp, flag = 0;

@@ -1,8 +1,8 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
+
 void sort(int a[], int n)
 {
-
     bool swapped;
     for (int i = 0; i < n - 1; i++)
     {
